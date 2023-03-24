@@ -4,6 +4,26 @@ using namespace std;
 int arr[20];                    //Membuat array dengan panjang data 20
 int n;                          //Membuat Variable inputan n
 
+void input() {                  //Procedure Input
+    while (true)
+    {
+        cout << "Masukkan Jumlah data pada Array : ";   //Membuat Inputan jumlah element Array
+        cin >> n;                                       //Memanggil Variable Inputan n
+
+        if (n <= 20) {                                  //Membuat Kondisi n tidak lebih dari 20
+            break; 
+        }
+        else
+        {
+            cout << "\nArray yan anda masukkan maksimal 20 elemen. \n"; //Menampilkan Pesan jika data lebih dari 20
+        }
+    }
+    cout << endl;                               //membuat Jarak perbaris program
+    cout << "====================" << endl;     //Membuat tampilan susunan data elemen array
+    cout << "Masukkan Elemen Array" << endl;    //Output ke layar
+    cout << "====================" << endl;     //Output ke layar
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
