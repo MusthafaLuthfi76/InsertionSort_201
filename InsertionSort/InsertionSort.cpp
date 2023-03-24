@@ -45,10 +45,12 @@ void insertionsort() {                      //Prosedur InsertionSort
         while (j >= 0 && arr[j] > temp)     //4. Looping while dimana nilai j lebih besar sama dengan 0 dan 
                                             //arr[j] lebih besar daripada temp
         {
-
+            arr[j + 1] = arr[j];            //4a. Simpann= arr[j] ke dalam variabel arr[j+1]
+            j--;                            //4b. Decrement nilai j by 1
         }
     }
 }
+
 
 int main()
 {
