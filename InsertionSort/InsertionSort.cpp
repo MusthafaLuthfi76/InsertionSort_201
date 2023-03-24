@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-double arr[20];                    //Membuat array dengan panjang data 20
-double n;                          //Membuat Variable inputan n
+int arr[20];                    //Membuat array dengan panjang data 20
+int n;                          //Membuat Variable inputan n
 
 void input() {                  //Procedure Input
     while (true)
