@@ -31,6 +31,25 @@ void input() {                  //Procedure Input
     }
 }
 
+void insertionsort() {
+
+    int temp;
+    int j;
+
+    for (int i = 1; i < n; i++) {
+        
+        temp = arr[i];
+
+        j = i - 1;
+
+        while (j >= 0 && arr[j] > temp)
+
+        {
+
+        }
+    }
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
